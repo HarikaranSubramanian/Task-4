@@ -1,6 +1,6 @@
 // programs using Arrow functions.
 
-// 2) a.
+// 2) a.print odd numbers in an array using arrow function.
 let num = [10,100,7,35,59,3,1,9,5];
 
 const oddNumbers = (arr) => {
@@ -13,7 +13,7 @@ const oddNumbers = (arr) => {
 
 oddNumbers(num);
 
-// b. 
+// b. convert all the strings to title caps in a string array using arrow function.
 let array = ["hari", "karan"];
 
 const titleCaps = (arr) => {
@@ -25,7 +25,7 @@ const titleCaps = (arr) => {
 titleCaps(array);
 console.log(array);
 
-// c.
+// c.sum of all the numbers in an array using arrow function.
 let numbers = [1, 2, 3, 4, 5];
 
 const sum = (arr) => {
@@ -34,7 +34,7 @@ const sum = (arr) => {
 
 console.log(sum(numbers));
 
-//d.
+//d.return all the prime numbers in an array using arrow function.
 
 let numbers = [41,7,3,10,8,15,5,2,11];
 const findPrimes = (arr) => {
@@ -53,7 +53,7 @@ const findPrimes = (arr) => {
 
 console.log(findPrimes(numbers));
 
-// e.
+// e.return all the palindromes in an array using arrow function.
 let names = ["level", "hari", "racecar", "amma", "madam","malayalam"];
 const findPalindromes = (arr) => {
   return arr.filter((word) => {

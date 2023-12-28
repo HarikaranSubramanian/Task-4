@@ -1,5 +1,5 @@
 // Programs using IIFE(Immediately Invoked Function Expression) functions.
-// 1) a.
+// 1) a.print odd numbers in an array using anonymous IIFE function.
 let num = [10,100,7,35,59,3,1,9,5];
 
 (function(arr) {
@@ -10,7 +10,7 @@ let num = [10,100,7,35,59,3,1,9,5];
   }
 })(num);
 
-// b.
+// b.convert all the strings to title caps in a string array using IIFE function.
 let array = ["hari", "karan"];
 
 
@@ -22,7 +22,7 @@ let array = ["hari", "karan"];
 
 console.log(array);
  
-// c.
+// c.sum of all the numbers in an array using IIFE function.
 let numbers = [1, 2, 3, 4, 5];
 
 let sum = (function(arr) {
@@ -35,7 +35,7 @@ let sum = (function(arr) {
 
 console.log(sum);
 
-//d
+//d. return all the prime numbers in an array using IIFE function.
 let numbers = [41,7,3,10,8,15,5,2,11];
 
 let primes = (function(arr) {
@@ -65,7 +65,7 @@ let primes = (function(arr) {
 
 console.log(primes);
 
-// e.
+// e.return all the palindromes in an array using IIFE function.
 let names = ["level", "hari", "racecar", "amma", "madam","malayalam"];
 
 let palindromes = (function(arr) {
@@ -85,7 +85,7 @@ let palindromes = (function(arr) {
 console.log(palindromes);
 
 
-// f.
+// f.return median of two sorted arrays of the same size using IIFE function.
 let array1 = [10,30,40];
 let array2 = [50,60,70];
 
@@ -105,7 +105,7 @@ let median = (function(arr1, arr2) {
 
 console.log(median);
 
-//g.
+//g.remove duplicates from an array using anonymous IIFE function.
 let array = [2,2,4,5,6,5,8,4];
 
 let uniqueArray = (function(arr) {
@@ -117,7 +117,7 @@ let uniqueArray = (function(arr) {
 console.log(uniqueArray);
 
 
-// h.
+// h.rotate an array by k times using IIFE function.
 let array = [1, 2, 3, 4, 5];
 let k = 2;
 

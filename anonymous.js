@@ -1,5 +1,5 @@
 // Programs using Anonymous functions.
-// 1) a.
+// 1) a.print odd numbers in an array using anonymous function .
 let num = [10,100,7,35,59,3,1,9,5];
 
 let oddNumbers = function(arr) {
@@ -12,7 +12,7 @@ let oddNumbers = function(arr) {
 
 oddNumbers(num);
 
-//b.
+//b.convert all the strings to title caps in a string array using anonymous function.
 let array = ["hari", "karan"];
 
 let titleCaps = function(arr) {
@@ -24,7 +24,7 @@ let titleCaps = function(arr) {
 titleCaps(array);
 console.log(array);
 
-//c.
+//c.sum of all the numbers in an array using anonymous function 
 let numbers = [1, 2, 3, 4, 5];
 
 let sum = function(arr) {
@@ -37,7 +37,7 @@ let sum = function(arr) {
 
 console.log(sum(numbers));
 
-// d.
+// d.return all the prime numbers in an array using anonymous function.
 let numbers = [41,7,3,10,8,15,5,2,11];
 
 let findPrimes = function(arr) {
@@ -67,7 +67,7 @@ let findPrimes = function(arr) {
 
 console.log(findPrimes(numbers));
 
-// e.
+// e.return all the palindromes in an array using anonymous function.
 let names = ["level", "hari", "racecar", "amma", "madam","malayalam"];
 
 let findPalindromes = function(arr) {
@@ -87,7 +87,7 @@ let findPalindromes = function(arr) {
 console.log(findPalindromes(names));
 
 
-// f.
+// f.return median of two sorted arrays of the same size using anonymous function.
 let array1 = [10,30,40];
 let array2 = [50,60,70];
 
@@ -109,7 +109,7 @@ console.log(findMedian(array1, array2));
 
 
 
-// g.
+// g.remove duplicates from an array using anonymous function.
 let array = [2,2,4,5,6,5,8,4];
 
 let duplicates = function(arr) {
@@ -120,7 +120,7 @@ let duplicates = function(arr) {
 
 console.log(duplicates(array));
 
-// h.
+// h.rotate an array by k times using anonymous function.
 let array = [1, 2, 3, 4, 5];
 let k = 2;
 
